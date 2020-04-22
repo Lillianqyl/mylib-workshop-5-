@@ -15,8 +15,7 @@ const getAllAuthors = async (req, res) => {
     return res.send("Database query failed");
   }
 };
-    
-  
+
   
 
 // function to modify author by ID
