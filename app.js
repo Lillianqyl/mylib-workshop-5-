@@ -35,6 +35,7 @@ app.use('/list', listRouter);
 // the recommendations routes are added onto the end of '/search'
 app.use('/search', searchRouter);
 
+require('./model')
 
 app.listen(process.env.PORT || 3000, () => {
     console.log("The library app is running!");
